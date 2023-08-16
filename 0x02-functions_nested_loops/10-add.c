@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * add - adds two integers
- * i: first parameter
- * j: second parameter
+ * add - Add two integers
+ * @x: int type number
+ * @y: int type number
  * Return: result of addition
  */
 
-int add(int i, int j)
+int add(int x, int y)
 {
-	return i + j;
-
+	int solve = (x + y);
+	
+	return (solve);
 }
