@@ -1,12 +1,14 @@
 #include "main.h"
+
 /**
  * times_table - Print the 9 times table, starting from 0
  */
+
 void times_table(void)
 {
 	int n, j, k, l, m;
 
-	for (n = 0;n < 10;n++)
+	for (n = 0; n < 10; n++)
 	{
 		for (j = 0; j < 10; j++)
 		{
