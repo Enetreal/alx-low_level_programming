@@ -6,7 +6,7 @@
  * @ac: arguments count
  * @av: arguments vector
  *
- * Retur: a pointer to a new string, or NULL if it fails
+ * Return: a pointer to a new string, or NULL if it fails
  */
 
 char *argstostr(int ac, char **av)
@@ -30,7 +30,7 @@ char *argstostr(int ac, char **av)
 	str = (char *)malloc(sizeof(char) * (len +1));
 	if (str == NULL)
 		return (NULL);
-	for ( a = 0, b = 0; a < ac && b < len; a++)
+	for (a = 0, b = 0; a < ac && b < len; a++)
 	{
 		s = av[a];
 		c = 0;
