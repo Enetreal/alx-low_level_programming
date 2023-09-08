@@ -2,12 +2,12 @@
 
 /**
  * string_nconcat - concantenates two strings using 
- * atmost an inputted number of bytes.
- * @s1: first string.
- * @s2: second string.
- * @n: maximum number of bytes of s2 to concantenate to s1.
+ * at most an inputted number of bytes.
+ * @s1: The first string.
+ * @s2: The second string.
+ * @n: The maximum number of bytes of s2 to concantenate to s1.
  *
- * Return: if the function fails - 0.
+ * Return: if the function fails - NULL.
  * Otherwise - a pointer to the concatenated space in memory.
  */
 
