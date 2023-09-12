@@ -1,14 +1,17 @@
 #include "dog.h"
+#include <stdio.h>
 
 /**
  * print_dog - prints a struct dog
  * @d: dog identification
  *
+ * Return: Always 0
+ *
  */
 
 void print_dog(struct dog *d)
 {
-	if (d == NULL)
+	if (d == NULL0x0E-structures_typedef)
 return;
 
 if ((*d).name == NULL)
