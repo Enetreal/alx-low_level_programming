@@ -27,7 +27,8 @@ unsigned int _strlen(const char *str)
 /**
  * binary_to_unit - Converts a binary number to an unsigned int
  * @b: The string containing '0' and '1' characters
- * Return: The converted number, or 0 if @b contains non-binary characters or is NULL
+ * Return: The converted number, or 0 if @b contains 
+ * non-binary characters or is NULL
  */
 unsigned int binary_to_uint(const char *b)
 {
@@ -49,7 +50,7 @@ unsigned int binary_to_uint(const char *b)
 		printf("Number is %u, index is %i, and base is %u. \n\n", num, index, base2);
 #endif
 
-		/* Check if the character is not '0' or '1' */
+	       /* if number is not 0 or 1 return 0 */	
 	       if (num != 0 && num != 1)
 	       return (0);
 
